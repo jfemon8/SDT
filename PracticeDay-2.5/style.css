@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5em;
+}
+
+.menubar li {
+    list-style-type: none;
+    margin: 2em;
+    color: #FB9D5C;
+}
+
+.menubar li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.menubar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-context {
+    margin: 1em 1em 0em 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.context-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.context-details p {
+    color: #FB9D5C;
+    text-align: center;
+}
+
+.context-details h1 {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.context-details button {
+    background-color: #FB9D5C;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    color: black;
+}
+
+.context-details button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.all-logo {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    padding: 1em;
+    background-color: rgb(248, 245, 245);
+}
+
+.logo-card img {
+    height: 8em;
+    width: 8em;
+}
+
+.service-container {
+    margin: 1em;
+}
+
+.services {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.service-cards {
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 1 calc(33.33% - 5em);
+    text-align: center;
+    padding: 1em;
+    border: solid 0.1em gray;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+}
+
+.hire-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+    margin: 1em 1em 0em 1em;
+}
+
+.hire-image img {
+    width: 30em;
+}
+
+.hire-description button {
+    background-color: #FB9D5C;
+    color: black;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.3em;
+    margin: 1em 0em;
+}
+
+.hire-description button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.hire-description h1 {
+    margin-bottom: 0.5em;
+}
+
+.highlight {
+    color: #FB9D5C;
+}
+
+.call {
+    margin-top: 1em;
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow-x: auto;
+    padding: 1em;
+    gap: 2em;
+}
+
+.footer-card {
+    text-align: center;
+    width: 15%;
+}
+
+.sec-details {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.sec-details img {
+    width: 3em;
+}
+
+.footer-card h4 {
+    color: #FB9D5C;
+    margin: 1em 0em;
+}
+
+.email {
+    background-color: lightgray;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+.footer-card ul {
+    padding-left: 3em;
+}
+
+.location {
+    display: flex;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.location-title {
+    color: #FB9D5C;
+}
+
+
