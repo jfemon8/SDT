@@ -1,0 +1,41 @@
+.card div {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px gray;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 5px aqua;
+    cursor: pointer;
+}
+
+.singleCard {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px greenyellow;
+}
+
+.des {
+    text-align: justify;
+}
